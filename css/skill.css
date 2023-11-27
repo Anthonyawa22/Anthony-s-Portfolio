@@ -1,0 +1,63 @@
+#skills li{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+}
+#core li{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+}
+#certification li{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+
+
+/* Mobile style for Contact page start here */
+
+@media only screen and (max-width: 800px) {
+    #core li{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    h4{
+        font-size: 25px;
+    }
+    #certification li{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        line-height: 30px;
+  }
+
+}
+  /* Mobile style for Contact page ends here */
+
+
+  /* Tablets style for Contact Page Starts here*/
+
+  @media screen and (min-width: 800px) and (max-width: 1023px) {
+    /* CSS styles for tablets */
+    #list{
+        width: 80%;  
+      }
+      #skills li{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 17px;
+        line-height: 25px;
+    }
+    #core li{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 17px;
+        line-height: 25px;
+    }
+    #certification li{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 17px;
+        line-height: 25px;
+    }
+}
+/* Tablets style for Contact Page Ends here*/

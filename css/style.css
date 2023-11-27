@@ -1,0 +1,265 @@
+
+
+/* Body Section */
+body {
+    /*background-color: rgba(9, 14, 16, 0.951);*/
+    background-image: url('https://media.istockphoto.com/id/1090955632/photo/black-marble-texture-with-natural-pattern-high-resolution-for-wallpaper-background-or-design.jpg?s=612x612&w=0&k=20&c=pntr6INFPi4XEC6hC1yIwAsrvO3iQ3GW6m-M7lATxOs=');
+    font-family: Rubik, Arial;
+  }
+  
+  #overlay {
+    width: 80%;
+    margin: 3% auto;
+    /*height: 95vh;
+    background-color: rgba(255, 255, 255, 0.9);*/
+    background-color: white;
+    border-radius: 50px;
+    overflow: hidden;
+
+  }
+  /* Header/ Navigation Section */
+  nav {
+    padding: 15px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #080101;
+    
+  }
+  
+  h1 {
+    float: left;
+    margin-top: 5px;
+    color: white;
+    font-size: 36px;
+  }
+  
+  #list {
+    float: right;
+  }
+  
+  #list li {
+    display: inline-block;
+    border-radius: 5px;
+    margin-right: 25px;
+    text-align: center;
+    background-color: #28587B;
+  }
+  
+  li a {
+    display: inline-block;
+    width: 150px;
+    padding: 10px 0;
+    text-decoration: none;
+    font-size: 24px;
+    color: white;
+    text-shadow: 2px 2px 0 #bbbbbb;
+  }
+  
+  .clearfix:after {
+     content: " ";
+     visibility: hidden;
+     display: block;
+     height: 0;
+     clear: both;
+  }
+  /* main Body Section starts here */
+
+  /* passport photograph starts here */
+  #container{
+    text-align: center;
+    margin-top: 0px;
+    background-color: #28587B;
+  }
+  #container img{
+    border-radius: 50%;
+    border: 2px solid #28587B;
+    margin-top: 30px;
+  }
+   h2, h3{
+    margin-top: 0px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  button{
+    margin-bottom: 15px;
+    background-color: black;
+    color: white;
+    padding: 5px 15px;
+  }
+
+  /* passport photograph ends here */
+
+  /* about me section starts here */
+
+h4{
+  font-size: 2em;
+  text-align: center;
+  font-weight: bold;
+  color: #28587B;
+  
+}
+
+#content h4{
+  text-align: center;
+  font-size: 2em;
+}
+
+ p {
+word-spacing: 2px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;
+margin-left: 10px;
+
+}
+ /* about me section ends here */
+
+hr {
+  
+  border: 1px solid #28587B;
+  margin: 0px;
+}
+
+/* projects section starts here */
+
+#projects h2{
+  color:#080101;
+  margin-left: 20px;
+}
+
+.project-image {
+  width: 50%;
+  margin-left: 40px;
+}
+.project-title{
+  margin-left: 40px;
+}
+
+.project-title h3 {
+  display: inline;
+  color: black;
+  
+}
+em{ 
+  margin-left: 50px;
+ 
+}
+
+#readMoreButton{
+
+    margin: 10px 40px;
+    background-color: black;
+    color: white;
+    padding: 5px 15px;
+}
+
+/* projects section ends here */
+
+/* Skills Section starts here */
+
+#skills-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 30px;
+  animation: scrollText 30s linear infinite;
+}
+@keyframes scrollText {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+#skills-container > * {
+  font-size: 2.5em;
+  width: 2em;
+  margin-top: var(--spacing-1);
+}
+/* Skills Section ends here */
+
+/* Footer Section starts here */
+#contact{
+  text-align: center;
+  margin-top: 0px;
+  padding-bottom: 15px;
+  background-color: #28587B;
+}
+
+#contact p {
+ color: white;
+ padding-top: 20px;
+}
+#contact-icon {
+  display: flex;
+  width: 20%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 15px;
+  font-size: 2em;
+  margin-left: 13.5em;
+}
+
+#contact-icon > *{
+  color: black;
+}
+
+/* Footer Section ends here */
+
+/* Mobile style for Home page start here */
+
+  @media only screen and (max-width: 800px) {
+    h1 {
+      display: none;
+    }
+    #list{
+      margin-left: 10px;
+    }
+    #list li {
+      margin-right: 10px;
+    
+    }
+  
+   li a {
+      width: 80px;
+      padding: 5px 0;
+      font-size: 16px;
+    }
+
+    p{
+      word-spacing: 2px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 20px;
+      margin-left: 10px;
+      text-align: center;
+      width: 95%;
+  }
+  #contact-icon{
+    display: none;
+  }
+   #contact p{
+    font-size: 15px;
+  }
+  #contact h4{
+    display: none;
+  }
+  
+}
+ /* Mobile style ends here */ 
+
+ /* Tablets style for Home Page Starts here*/
+
+ @media screen and (min-width: 800px) and (max-width: 1023px) {
+  /* CSS styles for tablets */
+
+  #list{
+    width: 80%;
+    
+  }
+  h1{
+    display: none;
+  }
+}
+/* Tablets style for Home Page Ends here*/

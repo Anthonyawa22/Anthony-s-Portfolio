@@ -1,0 +1,14 @@
+{
+  "name": "anthony-awa-portfolio-project",
+  "version": "1.0.0",
+  "description": "personal portfolio",
+  "main": "projects-page.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "anthony awa",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^10.2.0"
+  }
+}

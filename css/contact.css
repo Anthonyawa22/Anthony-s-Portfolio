@@ -1,0 +1,66 @@
+
+/* CONTACT SECTION STARTS HERE */
+#contact-page{
+    margin-left: 15px;
+    
+}
+
+#contact-page h2{
+    color: #28587B;
+    font-size: 3em;
+    text-align: center;
+    padding-top: 30px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+
+
+#contact-handle a{
+    margin-left: 10px;
+    color: black; 
+    font-family:'Courier New', Courier, monospace;
+    font-size: 30px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* CONTACT SECTION ENDS HERE */
+
+
+/* FOOTER SECTION STARTS HERE */
+
+#contact p {
+    padding-top: 20px;
+  }
+  /* FOOTER SECTION ENDS HERE */
+
+
+/* Mobile style for Contact page start here */
+
+  @media only screen and (max-width: 800px) {
+    #contact-handle a{
+        font-size: 20px;
+    }
+    
+    #contact-icon{
+        display: none;
+    }
+    #contact p{
+        font-size: 15px;
+    }
+    
+  }
+  /* Mobile style for Contact page ends here */
+
+
+  /* Tablets style for Contact Page Starts here*/
+
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    /* CSS styles for tablets */
+    #list{
+        width: 80%;
+        
+      }
+}
+/* Tablets style for Contact Page Ends here*/
