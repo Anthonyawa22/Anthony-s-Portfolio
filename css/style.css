@@ -46,7 +46,7 @@ body {
   
   li a {
     display: inline-block;
-    width: 150px;
+    width: 170px;
     padding: 10px 0;
     text-decoration: none;
     font-size: 24px;
@@ -255,10 +255,14 @@ em{
   /* CSS styles for tablets */
 
   #list{
-    width: 80%;
-    
+    width: 75%;
+
   }
   h1{
+    display: none;
+  }
+
+  #contact-icon{
     display: none;
   }
 }
